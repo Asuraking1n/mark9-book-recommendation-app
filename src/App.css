@@ -1,0 +1,83 @@
+:root {
+  --primary-color: rgb(0, 0, 0);
+}
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #3a3c3c;
+  background-image: url("https://wallpaperaccess.com/full/124383.jpg");
+  /* background-repeat: no-repeat; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  padding: 2rem 0;
+  color: rgb(255, 174, 0);
+  font-size: 3rem;
+}
+
+.input-section {
+  margin-bottom: 1rem;
+}
+.input {
+  padding: 10px 15px;
+  font-family: inherit;
+  border: 2px solid var(--primary-color);
+  border-radius: 12px;
+}
+
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0.5rem;
+  color:rgb(255, 174, 0);
+  border: 2px solid rgb(255, 174, 0);
+  border-radius: 10px;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav {
+  margin-bottom: 1rem;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  width: 150px;
+  border: 1px solid #777;
+  background: var(--primary-color);
+  margin: 5px;
+  border-radius: 20px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.menu-heading {
+  color: rgb(255, 174, 0);
+  margin: 0;
+  padding-top: 5px;
+}
+
+.menu-small {
+  color: rgb(255, 174, 0);
+  margin: 0;
+}
